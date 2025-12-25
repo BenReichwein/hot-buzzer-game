@@ -1,4 +1,4 @@
-## Hot buzzer game
+# Hot buzzer game
 A little vibe coded christmas fun hot buzzer game!
 Create a room with your group and take turns quizzing your group and whoevers fastest to buz in gets to answer first.
 
