@@ -13,6 +13,13 @@ const eslintConfig = defineConfig([
     "build/**",
     "next-env.d.ts",
   ]),
+  // Disable overly strict React Compiler rules that flag valid patterns
+  {
+    rules: {
+      // Allow setState in effects for external system synchronization (Socket.io, localStorage)
+      "react-hooks/set-state-in-effect": "off",
+    },
+  },
 ]);
 
 export default eslintConfig;
