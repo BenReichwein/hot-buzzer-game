@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Hot Buzzer Game",
-  description: "",
+  description: "Christmas themed hot buzzer game",
 };
 
 export default function RootLayout({
