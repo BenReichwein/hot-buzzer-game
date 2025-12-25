@@ -1,0 +1,11 @@
+# Nixpacks config to override the install and build phases
+# This replaces npm ci with npm install to work around lockfile version mismatches
+
+[phases.install]
+cmds = ["npm install"]
+
+[phases.build]
+cmds = ["npm run build"]
+
+[start]
+cmd = "npm run start"
